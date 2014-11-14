@@ -19,5 +19,5 @@ $ python autopkglogparser.py -h
 ```
 or
 ```
-python autopkglogparser.py path/to/autopkg.log
+python autopkglogparser.py path/to/autopkg.log  to_address@domain.no from_address@domain.no smtp.domain.no
 ```
