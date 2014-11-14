@@ -19,3 +19,5 @@ $ python autopkglogparser.py -h
 ```
 or
 ```
+python autopkglogparser.py path/to/autopkg.log
+```
