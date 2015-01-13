@@ -23,15 +23,20 @@ python autopkglogparser.py path/to/autopkg.log  to_address@domain.no from_addres
 ```
 How I use it:
 
-My autopkg setup consist of 4 parts.
+My autopkg setup consist of 4 parts:
 * autopkglogparser.py
 * autopkgrunner.sh
 * recipes.txt
 * tld.company.autopkglauncher.plist
 
-Its applied in reverser order.
+Its applied in reverser order:
 
 1: The LaunchDaemon fires of a the autopkgrunner.sh script every 7200 seconds.
 2: The autopkgrunner.sh script reads the recipes.txt and does a autopkg run for each of the recipes listed.
 3: The result of all the autopkg runs is piped to an output log.
 4: When all the recipes in the recipes.txt are processed the bash scipt calls the autopkglogparser.py with needed arguments.
+
+Look into the files (they are short) for the details.
+
+TODO:
+* Create variables for paths in autopkgrunner.sh
