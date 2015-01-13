@@ -9,11 +9,11 @@ Parse an autopkg log and sends a mail if it encounters new items imported.
 * License: The MIT License
 
 
-Installation:
+##Installation
 ```
 $ git clone git@github.com:kbotnen/autopkglogparser.git
 ```
-Usage:
+##Usage
 ```
 $ python autopkglogparser.py -h
 ```
@@ -21,7 +21,7 @@ or
 ```
 python autopkglogparser.py path/to/autopkg.log  to_address@domain.no from_address@domain.no smtp.domain.no
 ```
-How I use it:
+##How I use it
 
 My autopkg setup consist of 4 parts:
 * autopkglogparser.py
@@ -38,5 +38,5 @@ Its applied in reverser order:
 
 Look into the files (they are short) for the details.
 
-TODO:
+##TODO
 * Create variables for paths in autopkgrunner.sh
