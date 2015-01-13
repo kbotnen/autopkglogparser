@@ -3,7 +3,7 @@
 A script that takes a autopkg -v log and look for new imported items.
 
 Author: Kristian Botnen
-Email: kristian.botnen@adm.uib.no
+Email: kristian.botnen@uib.no
 License: The MIT License
 """
 import argparse
