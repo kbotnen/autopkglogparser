@@ -24,10 +24,10 @@ python autopkglogparser.py path/to/autopkg.log  to_address@domain.no from_addres
 ##How I use it
 
 My autopkg setup consist of 4 parts:
-* autopkglogparser.py
-* autopkgrunner.sh
-* recipes.txt
-* tld.company.autopkglauncher.plist
+* autopkglogparser.py (/Users/munki)
+* autopkgrunner.sh (/Users/munki)
+* recipes.txt (/Users/munki)
+* tld.company.autopkglauncher.plist (/Libarary/LaunchDaemons)
 
 Its applied in reverser order:
 
@@ -37,6 +37,8 @@ Its applied in reverser order:
 4: When all the recipes in the recipes.txt are processed the bash scipt calls the autopkglogparser.py with needed arguments.
 
 Look into the files (they are short) for the details.
+
+This setup requires that you already have a working autopkg installation with a munkirepo acting as backend.
 
 ##TODO
 * Create variables for paths in autopkgrunner.sh
