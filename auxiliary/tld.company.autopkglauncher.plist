@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+        <string>tld.company.autopkglauncher</string>
+    <key>UserName</key>
+       <string>munki</string>
+    <key>GroupName</key>
+      <string>munki</string>
+   <key>ProgramArguments</key>
+    <array>
+        <string>/bin/sh</string>
+        <string>/Users/munki/autopkgrunner.sh</string>
+    </array>
+    <key>RunAtLoad</key>
+        <true/>
+    <key>StandardErrorPath</key>
+        <string>/tmp/tld.company.autopkglauncher_error.log</string>
+    <key>StandardOutPath</key>
+        <string>/tmp/tld.company.autopkglauncher_out.log</string>
+    <key>StartInterval</key>
+	<integer>7200</integer>
+    <key>Debug</key>
+        <true/>
+</dict>
+</plist>

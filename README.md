@@ -5,7 +5,7 @@ Parse an autopkg log and sends a mail if it encounters new items imported.
 
 
 * Author: Kristian Botnen
-* Email: kristian.botnen@adm.uib.no
+* Email: kristian.botnen@uib.no
 * License: The MIT License
 
 
