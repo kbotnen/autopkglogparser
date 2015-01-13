@@ -38,6 +38,8 @@ Its applied in reverser order:
 
 Look into the files (they are short) for the details.
 
+##Requirements
+
 This setup requires that you already have a working autopkg installation with a munkirepo acting as backend.
 
 ##TODO
